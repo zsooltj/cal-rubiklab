@@ -8,10 +8,10 @@
 
 # github access token is necessary
 # add it to Environment Variables on Vercel
-if [ "$GITHUB_ACCESS_TOKEN" == "" ]; then
-    echo "Error: GITHUB_ACCESS_TOKEN is empty"
-    exit 1
-fi
+# if [ "$GITHUB_ACCESS_TOKEN" == "" ]; then
+#     echo "Error: GITHUB_ACCESS_TOKEN is empty"
+#     exit 1
+# fi
 
 # stop execution on error - don't let it build if something goes wrong
 set -e
