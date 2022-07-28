@@ -19,7 +19,7 @@ export default function LicenseBanner() {
     - Acquire a commercial license to remove these terms by visiting: cal.com/sales
     NEXT_PUBLIC_LICENSE_CONSENT=''
   */
-  if (process.env.NEXT_PUBLIC_LICENSE_CONSENT === "agree" || process.env.NEXT_PUBLIC_IS_E2E) {
+  if (process.env.NEXT_PUBLIC_LICENSE_CONSENT === "agree" || process.env.NEXT_PUBLIC_IS_E2E || true) {
     return null;
   }
 

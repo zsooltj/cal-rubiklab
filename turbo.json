@@ -75,7 +75,7 @@
     },
     "db-deploy": {
       "cache": false,
-      "inputs": ["./migrations/**/*.sql", "./prisma/migrations/**/*.sql"],
+      "inputs": [],
       "outputs": []
     },
     "db-seed": { "outputs": [] },
